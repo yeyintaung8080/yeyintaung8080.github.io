@@ -35,12 +35,12 @@ function loadProjectGallery() {
             company: 'Myanma Apex Bank',
             title: 'Oracle Banking Digital Experience (OBDX) Merchant EPI Integration',
             desc: `Developed merchant integration service and corporated with Oracle team`,
-            technologies: ['Java 8', 'Spring Boot', 'JPA', 'Oracle PL/SQL']
+            technologies: ['Angular', 'Java 8', 'Spring Boot', 'JPA', 'Oracle PL/SQL']
         },
         {
             company: 'Myanma Apex Bank',
             title: 'Question and Answer System',
-            desc: `Have experience with Google Form like Question and Answer System for MAB\'s staffs that\'s internally used.`,
+            desc: `Delivered experience with Google Form like Question and Answer System for MAB\'s staffs that\'s internally used.`,
             technologies: ['Angular', 'JWT Auth', 'Java 8', 'Spring Boot', 'Spring JDBC', 'Oracle PL/SQL', 'Web Logic']
         },
         {
@@ -58,7 +58,7 @@ function loadProjectGallery() {
         {
             company: 'Pearl Yadana',
             title: 'Student Exam Management System',
-            desc: 'Developed a management system for: <ul> <li> student registration </li><li>hostel reservation for student</li><li>exam data entry</li><li>attendee entry</li><li>exam mark entry</li><li>reporting passed and failed students</li><li>user management</li></ul> ',
+            desc: 'Implemented a management system for: <ul> <li> student registration </li><li>attendee hostel reservation</li><li>exam data entry</li><li>attendee entry</li><li>exam mark entry</li><li>reporting passed and failed students</li><li>user management</li></ul> ',
             technologies: ['Angular', 'JWT Auth', 'Java 8', 'Spring Boot', 'JPA', 'MySQL', 'Apache Tomcat'],
         },
     ];
