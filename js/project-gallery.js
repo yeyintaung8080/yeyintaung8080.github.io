@@ -15,7 +15,7 @@ function loadProjectGallery() {
         {
             company: 'Myanma Apex Bank',
             title: 'MAB Intercomm Staff App',
-            desc: 'Designed, developed, and delivered internal used staff communication application and administration web portal for HR and Management department. Specially developed using API and Angular.',
+            desc: 'Designed, developed, and delivered internal used staff communication application and administration web portal for HR and Management department. I especially developed API and Angular.',
             technologies: ['Angular', 'Flutter', 'JWT Auth', 'Java 8', 'Spring Boot', 'Spring JDBC', 'Oracle PL/SQL', 'Web Logic', 'Firebase'],
             link: 'https://play.google.com/store/apps/details?id=com.mab.mab_inter_com'
         },
