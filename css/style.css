@@ -282,7 +282,7 @@ nav.y2a-nav a {
 } */
 
 #y2a-profile:hover {
-    background-image: url('../static/img/color-profile.jpg');
+    background-image: url('../static/img/color-profile.jpg'), url('../static/img/gray-profile-img.jpg');
     transition: background-image 2s;
 }
 
@@ -315,7 +315,7 @@ nav.y2a-nav a {
 
 #overview-p {
     text-align: center;
-    font-size: 1.6em;
+    font-size: 1.5em;
 }
 
 #overview-p::before {

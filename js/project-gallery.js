@@ -8,14 +8,14 @@ function loadProjectGallery() {
         },
         {
             company: 'Myanma Apex Bank',
-            title: 'Bank Internal Management and Reporting System',
+            title: 'Management and Reporting System',
             desc: 'I\'ve been developing customized modules due to business owners\' requirements. Support version changes.',
             technologies: ['Angular', 'JWT Auth', 'Java 8', 'Spring Boot', 'Spring JDBC', 'Oracle PL/SQL', 'MS SQL']
         },
         {
             company: 'Myanma Apex Bank',
-            title: 'MAB Intercomm Staff App',
-            desc: 'Designed, developed, and delivered internal used staff communication application and administration web portal for HR and Management department. I especially developed API and Angular.',
+            title: 'Staff Management & Administration App',
+            desc: 'Delivered staff communication application and administration web portal for HR and Management departments.',
             technologies: ['Angular', 'Flutter', 'JWT Auth', 'Java 8', 'Spring Boot', 'Spring JDBC', 'Oracle PL/SQL', 'Web Logic', 'Firebase'],
             link: 'https://play.google.com/store/apps/details?id=com.mab.mab_inter_com'
         },
@@ -33,7 +33,7 @@ function loadProjectGallery() {
         },
         {
             company: 'Myanma Apex Bank',
-            title: 'Oracle Banking Digital Experience (OBDX) Merchant EPI Integration',
+            title: 'Oracle Banking Digital Experience (OBDX) Merchant Payment EPI Integration',
             desc: `Developed merchant integration service and corporated with Oracle team`,
             technologies: ['Angular', 'Java 8', 'Spring Boot', 'JPA', 'Oracle PL/SQL']
         },
