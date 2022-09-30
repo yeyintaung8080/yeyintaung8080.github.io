@@ -216,6 +216,26 @@ body {
     border-bottom: #000 solid 1px;
 }
 
+.navbar-light .navbar-toggler-icon {
+    background-image: url('../social-ethics.png');
+}
+
+.navbar-light .navbar-toggler {
+    border-color: rgba(253, 253, 253, 0.1) !important;
+}
+
+.navbar-toggler:focus {
+    border-color: rgba(253, 253, 253, 0.1) !important;
+}
+
+.navbar-nav {
+    text-align: center;
+}
+
+.show {
+    border-bottom: #ccd6f6;
+}
+
 
 /* Subheader */
 
