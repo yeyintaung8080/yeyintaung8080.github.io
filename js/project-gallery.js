@@ -4,58 +4,52 @@ function loadProjectGallery() {
             company: 'Myanma Apex Bank',
             title: 'Government Bank\'s Centralized Management Information System (eGovernment Project)',
             desc: 'I\'ve been conducting full stack web application development to sync and report various bank\'s transaction data between MAB bank and Government bank. Supporting integration to major and minor changes raise by Government bank specifically.',
-            technologies: ['Angular', 'JWT Auth', 'Java 8', 'Spring Boot', 'Spring JDBC', 'SOAP Client', 'XML', 'PL/SQL', 'Oracle']
+            technologies: ['Angular', 'JWT Auth', 'Java 8', 'Spring Boot', 'Spring JDBC', 'XML', 'JUnit', 'Oracle']
+        },
+        {
+            company: 'Myanma Apex Bank',
+            title: 'Management and Reporting System',
+            desc: `I\'ve been developing a management application due to business owners\' requirements.
+                    <ul>
+                        <li>Myanmar Payment Union Service\'s bulk transaction file parsing, validating, and importing into reporting database</li>
+                        <li>Other Bank Remittence Transaction Reports (Inward\/Outward)</li>
+                        <li>Bank Statement Reports</li>
+                    </ul>
+                `,
+            technologies: ['Angular', 'JWT Auth', 'Java 8', 'Spring Boot', 'Spring JDBC', 'Oracle', 'SQL Server', 'JUnit']
+        },
+        {
+            company: 'Myanma Apex Bank',
+            title: 'Human Resource Application',
+            desc: 'Delivered staff communication application and administration web portal for HR and Management departments.',
+            technologies: ['Angular', 'Flutter', 'JWT Auth', 'Java 8', 'Spring Boot', 'Spring JDBC', 'Oracle', 'Web Logic', 'Firebase'],
+            link: 'https://play.google.com/store/apps/details?id=com.mab.mab_inter_com'
         },
         {
             company: 'Myanma Apex Bank',
             title: 'Merchant Payment EPI Integration',
             desc: `Delivered merchant integration service and corporated with Oracle Banking Digital Experience (OBDX) team.`,
-            technologies: ['Angular', 'Java 8', 'Spring Boot', 'JPA', 'PL/SQL', 'Oracle']
+            technologies: ['Angular', 'Java 8', 'Spring Boot', 'JPA', 'Oracle', 'JUnit']
+        },
+        {
+            company: 'Myanma Apex Bank',
+            title: 'Internet Banking Duplicate User ID Transformation',
+            desc: `Delivered 6-month project enforces MAB iBanking customers with duplicate identities to transform into a new unique identity in the whole Core Banking System\'s database.`,
+            technologies: ['Angular', 'JWT Auth', 'Java 8', 'Spring Boot', 'JPA', 'Oracle']
         },
 
         {
             company: 'Myanma Apex Bank',
-            title: 'Staff Management & Administration Application',
-            desc: 'Delivered staff communication application and administration web portal for HR and Management departments.',
-            technologies: ['Angular', 'Flutter', 'JWT Auth', 'Java 8', 'Spring Boot', 'Spring JDBC', 'OPL/SQL', 'Oracle', 'Web Logic', 'Firebase'],
-            link: 'https://play.google.com/store/apps/details?id=com.mab.mab_inter_com'
-        },
-        {
-            company: 'Myanma Apex Bank',
-            title: 'iBanking Duplicate User ID Transformation Web Service',
-            desc: `Delivered 6-month project enforces MAB iBanking customers with duplicate identities to transform into a new unique identity in the whole Core Banking System\'s database.`,
-            technologies: ['Angular', 'JWT Auth', 'Java 8', 'Spring Boot', 'Spring JDBC', 'PL/SQL', 'Oracle']
-        },
-        {
-            company: 'Myanma Apex Bank',
             title: 'SMS Queuing Window Service',
             desc: `Developed a window service that batches MAB\'s SMS messages into SMS Queuing Database by scheduling.`,
-            technologies: ['Java 8', 'Spring Boot', 'Spring JDBC', 'PL/SQL', 'Oracle']
+            technologies: ['Java 8', 'Spring Boot', 'Spring Scheduler', 'Spring JDBC', 'Oracle', 'JUnit']
         },
 
         {
             company: 'Myanma Apex Bank',
             title: 'Question and Answer System',
-            desc: `Delivered experience with Google Form like Question and Answer System for MAB\'s staffs that\'s internally used.`,
-            technologies: ['Angular', 'JWT Auth', 'Java 8', 'Spring Boot', 'Spring JDBC', 'PL/SQL', 'Oracle', 'Web Logic']
-        },
-        {
-            company: 'Myanma Apex Bank',
-            title: 'Management and Reporting System',
-            desc: 'I\'ve been developing customized modules due to business owners\' requirements. Support version changes.',
-            technologies: ['Angular', 'JWT Auth', 'Java 8', 'Spring Boot', 'Spring JDBC', 'PL/SQL', 'Oracle', 'MS SQL']
-        },
-        {
-            company: 'Myanma Apex Bank',
-            title: 'Other Contributed Modules',
-            desc: `
-                <ul>
-                    <li>Myanmar Payment Union Service\'s bulk transaction file parsing, validating, and importing into reporting database</li>
-                    <li>Other Bank Remittence Transaction Reports (Inward\/Outward)</li>
-                    <li>Bank Statement Reports</li>
-                </ul>
-            `,
-            technologies: ['Angular', 'JWT Auth', 'Java 8', 'Spring Boot', 'Spring JDBC', 'PL/SQL', 'Oracle', 'Web Logic']
+            desc: `Delivered Google Form like Question and Answer System for MAB\'s staffs that\'s internally used.`,
+            technologies: ['Angular', 'JWT Auth', 'Java 8', 'Spring Boot', 'JPA', 'Oracle', 'JUnit']
         },
         {
             company: 'Pearl Yadana',
@@ -63,6 +57,16 @@ function loadProjectGallery() {
             desc: 'Implemented a management system for: <ul> <li> student registration </li><li>attendee hostel reservation</li><li>exam data entry</li><li>attendee entry</li><li>exam mark entry</li><li>reporting passed and failed students</li><li>user management</li></ul> ',
             technologies: ['Angular', 'JWT Auth', 'Java 8', 'Spring Boot', 'JPA', 'MySQL', 'Apache Tomcat'],
         },
+        {
+            company: 'Myanma Apex Bank',
+            title: 'Vivo Textile',
+            desc: `
+                I tested and maintained a small-sized customized textile stock management and retail
+                window-based java project. 
+            `,
+            technologies: ['Angular', 'JWT Auth', 'Java 8', 'Spring Boot', 'Spring JDBC', 'Oracle', 'Web Logic']
+        },
+
     ];
 
     let row = document.querySelector('#projects .row');
